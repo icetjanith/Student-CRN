@@ -1,0 +1,731 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+.detailContainer{
+    display: none;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: -40px;
+}
+
+.tableContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.tableTitle{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.stdTable {
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    border: 2px solid black;
+}
+
+.stdTable td{
+    border: 2px solid black;
+}
+
+.navDiv{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    z-index: 1;
+}
+
+.navImg{
+    max-width: 40px;
+    min-height: 34px;
+}
+
+.navlist{
+    font-family: "Poppins", sans-serif;
+    font-size: larger;;
+    font-weight: 500;
+}
+
+.imgDiv{
+    width: 100%;
+    padding-block: 10px;
+    border-radius: 12px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.studentImg{
+    max-height: 25rem; 
+}
+
+.detailsDiv{
+    width: 100%;
+    padding-block: 10px;
+    border-radius: 12px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+hr{
+    margin-top: -3px;
+    margin-bottom: 5px;
+    width: 70%;
+    color: black;
+    border: 3px solid black;
+}
+
+.detailsRow{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 8px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.label{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-right: 12px;
+    width: 5rem;
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.guardianInfo{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.buttonRow{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.btnClear{
+    margin-left: 20px;
+    color: white;
+    background-color: #00ff00;
+    width: 6rem;
+    max-height: 2.5rem;
+    border: 1px solid #00ff00;
+    border-radius: 7px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.btnRegister{
+    margin-right: 9px;
+    color: white;
+    background-color: #ff0000;
+    width: 6rem;
+    height: 2.5rem;
+    border: 1px solid #ff0000;
+    border-radius: 7px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+@media only screen and (max-width: 1200px) {
+    .detailContainer{
+        display: none;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: -40px;
+    }
+    
+    .tableContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    
+    .tableTitle{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+    }
+    
+    .stdTable {
+        margin-top: 30px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        border: 2px solid black;
+    }
+    
+    .stdTable td{
+        border: 2px solid black;
+    }
+    
+    .navDiv{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 60px;
+        z-index: 1;
+    }
+    
+    .navImg{
+        max-width: 40px;
+        min-height: 34px;
+    }
+    
+    .navlist{
+        font-family: "Poppins", sans-serif;
+        font-size: larger;;
+        font-weight: 500;
+    }
+    
+    .imgDiv{
+        width: 100%;
+        padding-block: 10px;
+        border-radius: 12px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .studentImg{
+        max-height: 25rem; 
+    }
+    
+    .detailsDiv{
+        width: 100%;
+        padding-block: 10px;
+        border-radius: 12px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+    
+    hr{
+        margin-top: -3px;
+        margin-bottom: 5px;
+        width: 70%;
+        color: black;
+        border: 3px solid black;
+    }
+    
+    .detailsRow{
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        width: 90%;
+        margin-top: 8px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+    }
+    
+    .label{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-right: 12px;
+        width: 5rem;
+    }
+    
+    .details{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: beige;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+    
+    .guardianInfo{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+    
+    .buttonRow{
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+    
+    .btnClear{
+        margin-left: 20px;
+        color: white;
+        background-color: #00ff00;
+        width: 6rem;
+        max-height: 2.5rem;
+        border: 1px solid #00ff00;
+        border-radius: 7px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    }
+    
+    .btnRegister{
+        margin-right: 9px;
+        color: white;
+        background-color: #ff0000;
+        width: 6rem;
+        height: 2.5rem;
+        border: 1px solid #ff0000;
+        border-radius: 7px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .detailContainer{
+        display: none;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: -40px;
+    }
+    
+    .tableContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    
+    .tableTitle{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+    }
+    
+    .stdTable {
+        margin-top: 30px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        border: 2px solid black;
+    }
+    
+    .stdTable td{
+        border: 2px solid black;
+    }
+    
+    .navDiv{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 60px;
+        z-index: 1;
+    }
+    
+    .navImg{
+        max-width: 40px;
+        min-height: 34px;
+    }
+    
+    .navlist{
+        font-family: "Poppins", sans-serif;
+        font-size: larger;;
+        font-weight: 500;
+    }
+    
+    .imgDiv{
+        width: 100%;
+        padding-block: 10px;
+        border-radius: 12px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .studentImg{
+        max-height: 25rem; 
+    }
+    
+    .detailsDiv{
+        width: 100%;
+        padding-block: 10px;
+        border-radius: 12px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+    
+    hr{
+        margin-top: -3px;
+        margin-bottom: 5px;
+        width: 70%;
+        color: black;
+        border: 3px solid black;
+    }
+    
+    .detailsRow{
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        width: 90%;
+        margin-top: 8px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+    }
+    
+    .label{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-right: 12px;
+        width: 5rem;
+    }
+    
+    .details{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: beige;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+    
+    .guardianInfo{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+    
+    .buttonRow{
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+    
+    .btnClear{
+        margin-left: 20px;
+        color: white;
+        background-color: #00ff00;
+        width: 6rem;
+        max-height: 2.5rem;
+        border: 1px solid #00ff00;
+        border-radius: 7px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    }
+    
+    .btnRegister{
+        margin-right: 9px;
+        color: white;
+        background-color: #ff0000;
+        width: 6rem;
+        height: 2.5rem;
+        border: 1px solid #ff0000;
+        border-radius: 7px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .detailContainer{
+        display: none;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: -40px;
+    }
+    
+    .tableContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    
+    .tableTitle{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+    }
+    
+    .stdTable {
+        margin-top: 30px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        border: 2px solid black;
+    }
+    
+    .stdTable td{
+        border: 2px solid black;
+    }
+    
+    .navDiv{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 60px;
+        z-index: 1;
+    }
+    
+    .navImg{
+        max-width: 40px;
+        min-height: 34px;
+    }
+    
+    .navlist{
+        font-family: "Poppins", sans-serif;
+        font-size: larger;;
+        font-weight: 500;
+    }
+    
+    .imgDiv{
+        width: 100%;
+        padding-block: 10px;
+        border-radius: 12px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .studentImg{
+        max-height: 25rem; 
+    }
+    
+    .detailsDiv{
+        width: 100%;
+        padding-block: 10px;
+        border-radius: 12px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+    
+    hr{
+        margin-top: -3px;
+        margin-bottom: 5px;
+        width: 70%;
+        color: black;
+        border: 3px solid black;
+    }
+    
+    .detailsRow{
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        width: 90%;
+        margin-top: 8px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+    }
+    
+    .label{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-right: 12px;
+        width: 5rem;
+    }
+    
+    .details{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: beige;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+    
+    .guardianInfo{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+    
+    .buttonRow{
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+    
+    .btnClear{
+        margin-left: 20px;
+        color: white;
+        background-color: #00ff00;
+        width: 6rem;
+        max-height: 2.5rem;
+        border: 1px solid #00ff00;
+        border-radius: 7px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    }
+    
+    .btnRegister{
+        margin-right: 9px;
+        color: white;
+        background-color: #ff0000;
+        width: 6rem;
+        height: 2.5rem;
+        border: 1px solid #ff0000;
+        border-radius: 7px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .navDiv{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 60px;
+        z-index: 1;
+    }
+
+    .navlist{
+        font-family: "Poppins", sans-serif;
+        font-size: larger;;
+        font-weight: 500;
+    }
+
+    .detailContainer{
+        display: none;
+        margin-top: 100px;
+    }
+
+    .stdTable {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        border: 1px solid black;
+    }
+
+    .navImg{
+        max-width: 40px;
+        min-height: 34px;
+    }
+
+    .imgDiv{
+        width: 90%;
+        padding-block: 10px;
+        border-radius: 70px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .studentImg{
+        max-height: 10rem; 
+    }
+
+    .detailsDiv{
+        width: 90%;
+        padding-block: 10px;
+        border-radius: 14px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+    hr{
+        margin-top: -3px;
+        margin-bottom: 5px;
+        width: 90%;
+        border: 1px solid black;
+    }
+
+    .detailsRow{
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        width: 90%;
+        margin-top: 8px;
+    }
+
+    .label{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-items: center;
+        margin-right: 12px;
+        width: 5rem;
+    }
+
+    .details{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: beige;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+
+    .guardianInfo{
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .buttonRow{
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .btnClear{
+        margin-left: 20px;
+        color: white;
+        background-color: #f51720;
+        width: 6rem;
+        height: 2rem;
+        border: 1px solid #f51720;
+        border-radius: 7px;
+    }
+
+    .btnRegister{
+        margin-right: 9px;
+        color: white;
+        background-color: #0000ff;
+        width: 6rem;
+        height: 2rem;
+        border: 1px solid #0000ff;
+        border-radius: 7px;
+    }
+
+    
+}    
