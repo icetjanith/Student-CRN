@@ -1,4 +1,4 @@
-Student Registration System - UI
+<Strong>Student Registration System - UIA</strong>
 ------------------------------------
 This is the user interface for the Student Registration System, designed to manage student details such as registration, updates, and deletion. The UI is built using HTML, CSS, JavaScript, and integrated with Bootstrap modals for better user experience.
 
