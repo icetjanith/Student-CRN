@@ -204,7 +204,7 @@ function createTableRows(id, name, age, address) {
 }
 async function getAllStudents() {
 
-    let response = await fetch("http://localhost:8080/student");
+    let response = await fetch("https://demo-1-ad4x.onrender.com/student/all");
     let data = await response.json();
     console.log(data);
     data.forEach(element => {
