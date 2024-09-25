@@ -35,7 +35,7 @@ async function fetchApi(student) {
 
     try {
 
-        let response = await fetch("http://localhost:8080/student", {
+        let response = await fetch("https://demo-1-ad4x.onrender.com/student/addstudent", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
