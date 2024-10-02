@@ -1,7 +1,11 @@
 <Strong>Student Registration System - UI</strong>
 ------------------------------------
 This is the user interface for the Student Registration System, designed to manage student details such as registration, updates, and deletion. The UI is built using HTML, CSS, JavaScript, and integrated with Bootstrap modals for better user experience.
+
+
 ![Screenshot 2024-10-01 165745](https://github.com/user-attachments/assets/ebdfff7d-7db6-4587-bddf-6e0ca7867e1b)
+
+
 
 Features
 -------------
